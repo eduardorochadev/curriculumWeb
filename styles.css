@@ -35,9 +35,11 @@ body {
   @keyframes contentSlideIn {
     from {
       transform: translateX(100vw);
+      opacity: 0;
     }
     to {
       transform: translateX(0);
+      opacity: 1;
     }
   }
   header {
@@ -100,6 +102,7 @@ body {
     }
   }
   @media (max-width: 480px) {
+
     h1 {
         font-size: 22px;
     }
